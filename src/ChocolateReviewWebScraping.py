@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+# Import Dataset
+
 chocolate = requests.get("https://content.codecademy.com/courses/beautifulsoup/cacao/index.html")
 soup = BeautifulSoup(chocolate.content, "html.parser")
 
